@@ -1,0 +1,16 @@
+{
+  "name": "unit-converter-package",
+  "version": "1.0.0",
+  "description": "A unit converter that contains different types of unit converters these are length, weight, temperature, volume, and time.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --verbose"
+  },
+  "keywords": ["units", "converter", "length", "weight", "temperature", "volume", "time"],
+  "author": "Pontus Serrander <ps223qb@student.lnu.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
